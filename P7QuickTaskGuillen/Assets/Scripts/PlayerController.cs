@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    public GameObject crown;
+    public Rigidbody2D rb;
     public float canWeGetMuchHigher;
     private float horizontal;
     public float speed = 1;
     public GameOverScreen GameOverScreen;
-    bool crown = true;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        crown = GetComponent<BoxCollider2D>();
     }
+    void OnTriggerEnter2D(Collier2D other)
+    {
 
-    // Update is called once per frame
+    }
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
