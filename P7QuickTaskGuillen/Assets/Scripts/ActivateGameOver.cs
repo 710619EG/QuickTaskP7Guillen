@@ -9,7 +9,6 @@ public class ActivateGameOver : MonoBehaviour
     void Start()
     {
         visibility = GetComponent<SpriteRenderer>();
-        gameOverScreen = GameObject.Find(gameObject."Background");
     }
     void OnTriggerEnter2D(Collider2D other)
     {

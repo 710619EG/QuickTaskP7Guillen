@@ -1719,8 +1719,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 513cf6241b046e94780c656a21d44fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visibility: {fileID: 0}
-  gameOverScreen: {fileID: 0}
+  visibility: {fileID: 1833882337}
+  gameOverScreen: {fileID: 1352803004}
+--- !u!212 &1833882337 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3626916397498700004, guid: b31ac1000b504634eaec355f09b61acd, type: 3}
+  m_PrefabInstance: {fileID: 1833882330}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1966039043
 GameObject:
   m_ObjectHideFlags: 0
